@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acessing Dom In JS</title>
+</head>
+<body>
+    <p id="para1">hello world</p>
+    <p class="para2">I love coding</p>
+    <p class="para2">I love coding2</p>
+    <p class="para2">I love coding3</p>
+</body>
+<script>
+//access elements by an id
+//var a = document.getElementById("para1");
+//var a = document.getElementById("para1").innerHTML;
+//document.write(a);
+
+//access elements by class
+//var b =  document.getElementsByClassName("para2")[2].innerHTML;
+//document.write(b);
+
+//access elements by tag name
+//var p =  document.getElementsByTagName("p");
+//document.write(p);
+//console.log(p);
+
+//get first element
+var para = document.querySelector("p").innerHTML;
+document.write(para);
+</script>
+</html>

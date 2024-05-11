@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirm Box In JS</title>
+</head>
+<body>
+    <input type="button"onclick="myfunc()"value="submit">
+</body>
+<script>
+    function myfunc(){
+
+    
+   var userConfirmation = confirm("Do you want to visit website?");
+   if(userConfirmation == true){
+      //document.write('You can go forward');
+      window.open("https://www.w3schools.com/");
+      return true;
+   }
+   else{
+      document.write("You can't go any further");
+      return false;
+   }
+}
+</script>
+</html>

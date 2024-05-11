@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Statement in JS</title>
+</head>
+<body>
+  <ul>
+    Choose operation
+     <li>Add</li>
+     <li>Sutract</li>
+     <li>Multiply</li>
+     <li>divide</li>
+  </ul>
+    <form>
+        <input type="text" placeholder="enter operation" id="choices" required>
+    </form>
+    <button onclick = "myfunc()">submit</button>
+
+
+<script>
+   function  myfunc(){
+      var choice = document.getElementById('choices').value;
+ 
+      switch(choice){
+         case 'add':
+           var a = 3;
+           var b = 4;
+           sum = b + a;
+           choice += sum;
+           document.write('The addition of numbers is:'+ sum);
+           break;
+           case 'subtract':
+           var a = 3;
+           var b = 4; 
+      
+           diff = b - a;
+           document.write('The difference of numbers is:'+ diff);
+           break;
+           
+           case 'multiply':
+           var a = 3;
+           var b = 4;
+           mul = b * a;
+           document.write('The product of numbers is:'+ mul);
+           break;
+           case 'divide':
+           var a = 4;
+           var b = 12;
+           div = b / a;
+           document.write('The division of numbers is:'+ div);
+           break;
+      }
+   }
+    
+</script>
+</body>
+</html>

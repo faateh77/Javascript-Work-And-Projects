@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parent Child Sibling In JS</title>
+</head>
+<body>
+    <p id="demo">hello world</p>
+    <p class="para1">text</p>
+    <p class="para2">text2</p>
+    <p class="para3">text3</p>
+
+    <ul>
+        <li>like</li>
+        <li>share</li>
+        <li>subscribe</li>
+    </ul>
+
+</body>
+<script>
+    //access children of the body
+    //var child = document.body.children;
+    //document.write(child);
+    //console.log(child);
+
+    //add a child in body
+    //var para =  document.createElement("p");
+    //var textnode =  document.createTextNode("coding is fun");
+    //para.appendChild(textnode);
+    //document.write(para.innerHTML);
+    //console.log(para)
+    //document.body.appendChild(para);
+
+    //access first child and last child
+    var list = document.querySelector("ul");
+    //console.log(list);
+   // console.log(list.firstChild)
+    //console.log(list.lastChild)
+    var firstsiblings = demo.nextElementSibling;
+    console.log(firstsiblings)
+
+    console.log(list.parentNode)
+</script>
+</html>

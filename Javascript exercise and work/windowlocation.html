@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Window Location</title>
+</head>
+<body>
+    <button onclick="myfunc()">Click Me</button>
+</body>
+<script>
+//function for returning the current url of the file
+ document.write(window.location.href + "<br>");
+ //returning the host name
+ document.write(window.location.Hostname + "<br>");
+
+//redirects user to other page or url
+function myfunc(){
+    document.write(window.location.assign("https://www.youtube.com/")+ "<br>")
+}
+
+//Path
+document.write(window.location.pathname + "<br>");
+
+
+//Protocol
+document.write(window.location.protocol);
+</script>   
+
+</html>

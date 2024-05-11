@@ -28,7 +28,9 @@ var things = ["big",12,'low','apple'];
 document.write(things);
 document.write("<br>");
 
-
+//escape character in javascript
+var w = "This is best \'language\' to code";
+document.write(w);
 //Determining the type of variable 
 
 document.write(typeof(name));
