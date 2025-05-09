@@ -1,0 +1,28 @@
+.modal{
+    background: rgb(236, 236, 236);
+    padding: 30px 30px;
+    width: 30%;
+    position: relative;
+    margin: auto;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.208);
+    display: none;
+}
+span#close {
+    color: red;
+    font-weight: 600;
+    background: #fff;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 10px;
+    position: absolute;
+    top: 10px;
+    cursor: point2er;
+    right: 10px;
+}
+button#btn {
+    border: none;
+    padding: 11px 35px;
+    background: tomato;
+    cursor: pointer;
+    color: #fff;
+}
