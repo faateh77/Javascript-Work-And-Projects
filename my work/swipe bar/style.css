@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #dfdede;
+}
+.swipe-bar {
+    background: #08c1a9;
+    width: 7%;
+    height: 36px;
+    margin: 300px auto;
+    border-radius: 90px;
+}
+button {
+    background: white;
+    width: 36px;
+    float: left;
+    height: 36px;
+    transition: 2s ease-in-out;
+    cursor: pointer;
+    outline: none;
+    border-radius: 56px;
+    border: none;
+}
