@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 178, 178);
+    height: 300vh;
+}
+header{
+    display: flex;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px;
+    background: #000;
+    width: 100%;
+    color:#fff;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+}
+ul.nav-menu a {
+    display: inline-block;
+    padding: 0px 13px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: capitalize;
+}
